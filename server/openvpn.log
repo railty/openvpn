@@ -1,0 +1,705 @@
+Fri Feb 24 15:36:43 2017 OpenVPN 2.3.10 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Feb  2 2016
+Fri Feb 24 15:36:43 2017 library versions: OpenSSL 1.0.2g  1 Mar 2016, LZO 2.08
+Fri Feb 24 15:36:43 2017 Diffie-Hellman initialized with 2048 bit key
+Fri Feb 24 15:36:43 2017 Control Channel Authentication: using 'ta.key' as a OpenVPN static key file
+Fri Feb 24 15:36:43 2017 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:43 2017 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:43 2017 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Fri Feb 24 15:36:43 2017 TUN/TAP device tun0 opened
+Fri Feb 24 15:36:43 2017 TUN/TAP TX queue length set to 100
+Fri Feb 24 15:36:43 2017 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Fri Feb 24 15:36:43 2017 /sbin/ip link set dev tun0 up mtu 1500
+Fri Feb 24 15:36:43 2017 /sbin/ip addr add dev tun0 10.8.0.1/16 broadcast 10.8.255.255
+Fri Feb 24 15:36:43 2017 GID set to nogroup
+Fri Feb 24 15:36:43 2017 UID set to nobody
+Fri Feb 24 15:36:43 2017 Listening for incoming TCP connection on [undef]
+Fri Feb 24 15:36:43 2017 TCPv4_SERVER link local (bound): [undef]
+Fri Feb 24 15:36:43 2017 TCPv4_SERVER link remote: [undef]
+Fri Feb 24 15:36:43 2017 MULTI: multi_init called, r=256 v=256
+Fri Feb 24 15:36:43 2017 IFCONFIG POOL: base=10.8.254.111 size=1, ipv6=0
+Fri Feb 24 15:36:43 2017 ifconfig_pool_read(), in='vpn1,10.8.5.1', TODO: IPv6
+Fri Feb 24 15:36:43 2017 succeeded -> ifconfig_pool_set()
+Fri Feb 24 15:36:43 2017 ifconfig_pool_read(), in='vpn6,10.8.5.2', TODO: IPv6
+Fri Feb 24 15:36:43 2017 succeeded -> ifconfig_pool_set()
+Fri Feb 24 15:36:43 2017 ifconfig_pool_read(), in='vpn5,10.8.5.3', TODO: IPv6
+Fri Feb 24 15:36:43 2017 succeeded -> ifconfig_pool_set()
+Fri Feb 24 15:36:43 2017 IFCONFIG POOL LIST
+Fri Feb 24 15:36:43 2017 MULTI: TCP INIT maxclients=1024 maxevents=1028
+Fri Feb 24 15:36:43 2017 Initialization Sequence Completed
+Fri Feb 24 15:36:44 2017 Closing TUN/TAP interface
+Fri Feb 24 15:36:44 2017 /sbin/ip addr del dev tun0 10.8.0.1/16
+RTNETLINK answers: Operation not permitted
+Fri Feb 24 15:36:44 2017 Linux ip addr del failed: external program exited with error status: 2
+Fri Feb 24 15:36:44 2017 SIGTERM[hard,] received, process exiting
+Fri Feb 24 15:36:45 2017 OpenVPN 2.3.10 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Feb  2 2016
+Fri Feb 24 15:36:45 2017 library versions: OpenSSL 1.0.2g  1 Mar 2016, LZO 2.08
+Fri Feb 24 15:36:45 2017 Diffie-Hellman initialized with 2048 bit key
+Fri Feb 24 15:36:45 2017 Control Channel Authentication: using 'ta.key' as a OpenVPN static key file
+Fri Feb 24 15:36:45 2017 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:45 2017 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:45 2017 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Fri Feb 24 15:36:45 2017 TUN/TAP device tun0 opened
+Fri Feb 24 15:36:45 2017 TUN/TAP TX queue length set to 100
+Fri Feb 24 15:36:45 2017 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Fri Feb 24 15:36:45 2017 /sbin/ip link set dev tun0 up mtu 1500
+Fri Feb 24 15:36:45 2017 /sbin/ip addr add dev tun0 10.8.0.1/16 broadcast 10.8.255.255
+Fri Feb 24 15:36:45 2017 GID set to nogroup
+Fri Feb 24 15:36:45 2017 UID set to nobody
+Fri Feb 24 15:36:45 2017 Listening for incoming TCP connection on [undef]
+Fri Feb 24 15:36:45 2017 TCPv4_SERVER link local (bound): [undef]
+Fri Feb 24 15:36:45 2017 TCPv4_SERVER link remote: [undef]
+Fri Feb 24 15:36:45 2017 MULTI: multi_init called, r=256 v=256
+Fri Feb 24 15:36:45 2017 IFCONFIG POOL: base=10.8.254.111 size=1, ipv6=0
+Fri Feb 24 15:36:45 2017 IFCONFIG POOL LIST
+Fri Feb 24 15:36:45 2017 MULTI: TCP INIT maxclients=1024 maxevents=1028
+Fri Feb 24 15:36:45 2017 Initialization Sequence Completed
+Fri Feb 24 15:36:48 2017 TCP connection established with [AF_INET]192.168.86.178:52226
+Fri Feb 24 15:36:48 2017 192.168.86.178:52226 TCP connection established with [AF_INET]192.168.86.179:36528
+Fri Feb 24 15:36:48 2017 192.168.86.179:36528 TCP connection established with [AF_INET]192.168.86.180:37582
+Fri Feb 24 15:36:49 2017 192.168.86.180:37582 TLS: Initial packet from [AF_INET]192.168.86.180:37582, sid=3d63ff61 9945cbed
+Fri Feb 24 15:36:49 2017 TCP connection established with [AF_INET]192.168.86.176:60226
+Fri Feb 24 15:36:49 2017 192.168.86.179:36528 TLS: Initial packet from [AF_INET]192.168.86.179:36528, sid=a9102673 869d1361
+Fri Feb 24 15:36:49 2017 TCP connection established with [AF_INET]192.168.86.177:36196
+Fri Feb 24 15:36:49 2017 192.168.86.178:52226 TLS: Initial packet from [AF_INET]192.168.86.178:52226, sid=94b1fc74 aa1b4b10
+Fri Feb 24 15:36:49 2017 192.168.86.176:60226 TLS: Initial packet from [AF_INET]192.168.86.176:60226, sid=380a63eb 8f630229
+Fri Feb 24 15:36:49 2017 192.168.86.177:36196 TLS: Initial packet from [AF_INET]192.168.86.177:36196, sid=62467b53 bf9e8171
+Fri Feb 24 15:36:49 2017 192.168.86.180:37582 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.180:37582 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn5, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.179:36528 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.179:36528 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn4, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.176:60226 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.176:60226 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn2, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.177:36196 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.177:36196 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn1, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.178:52226 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.178:52226 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn3, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.180:37582 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.180:37582 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.180:37582 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.180:37582 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.176:60226 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.176:60226 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.176:60226 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.176:60226 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.180:37582 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:36:49 2017 192.168.86.180:37582 [vpn5] Peer Connection Initiated with [AF_INET]192.168.86.180:37582
+Fri Feb 24 15:36:49 2017 vpn5/192.168.86.180:37582 MULTI_sva: pool returned IPv4=10.8.254.111, IPv6=(Not enabled)
+Fri Feb 24 15:36:49 2017 vpn5/192.168.86.180:37582 MULTI: Learn: 10.8.254.111 -> vpn5/192.168.86.180:37582
+Fri Feb 24 15:36:49 2017 vpn5/192.168.86.180:37582 MULTI: primary virtual IP for vpn5/192.168.86.180:37582: 10.8.254.111
+Fri Feb 24 15:36:49 2017 192.168.86.176:60226 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:36:49 2017 192.168.86.176:60226 [vpn2] Peer Connection Initiated with [AF_INET]192.168.86.176:60226
+Fri Feb 24 15:36:49 2017 vpn2/192.168.86.176:60226 OPTIONS IMPORT: reading client specific options from: clients/vpn2
+Fri Feb 24 15:36:49 2017 vpn2/192.168.86.176:60226 MULTI: Learn: 10.8.2.2 -> vpn2/192.168.86.176:60226
+Fri Feb 24 15:36:49 2017 vpn2/192.168.86.176:60226 MULTI: primary virtual IP for vpn2/192.168.86.176:60226: 10.8.2.2
+Fri Feb 24 15:36:49 2017 192.168.86.179:36528 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.179:36528 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.179:36528 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.179:36528 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.179:36528 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:36:49 2017 192.168.86.179:36528 [vpn4] Peer Connection Initiated with [AF_INET]192.168.86.179:36528
+Fri Feb 24 15:36:49 2017 vpn4/192.168.86.179:36528 OPTIONS IMPORT: reading client specific options from: clients/vpn4
+Fri Feb 24 15:36:49 2017 vpn4/192.168.86.179:36528 Options error: option 'route' cannot be used in this context (clients/vpn4)
+Fri Feb 24 15:36:49 2017 vpn4/192.168.86.179:36528 MULTI: Learn: 10.8.3.2 -> vpn4/192.168.86.179:36528
+Fri Feb 24 15:36:49 2017 vpn4/192.168.86.179:36528 MULTI: primary virtual IP for vpn4/192.168.86.179:36528: 10.8.3.2
+Fri Feb 24 15:36:49 2017 192.168.86.178:52226 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.178:52226 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.178:52226 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.178:52226 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.177:36196 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.177:36196 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.177:36196 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.177:36196 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.178:52226 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:36:49 2017 192.168.86.178:52226 [vpn3] Peer Connection Initiated with [AF_INET]192.168.86.178:52226
+Fri Feb 24 15:36:49 2017 vpn3/192.168.86.178:52226 OPTIONS IMPORT: reading client specific options from: clients/vpn3
+Fri Feb 24 15:36:49 2017 vpn3/192.168.86.178:52226 Options error: option 'route' cannot be used in this context (clients/vpn3)
+Fri Feb 24 15:36:49 2017 vpn3/192.168.86.178:52226 MULTI: Learn: 10.8.3.1 -> vpn3/192.168.86.178:52226
+Fri Feb 24 15:36:49 2017 vpn3/192.168.86.178:52226 MULTI: primary virtual IP for vpn3/192.168.86.178:52226: 10.8.3.1
+Fri Feb 24 15:36:49 2017 192.168.86.177:36196 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:36:49 2017 192.168.86.177:36196 [vpn1] Peer Connection Initiated with [AF_INET]192.168.86.177:36196
+Fri Feb 24 15:36:49 2017 vpn1/192.168.86.177:36196 OPTIONS IMPORT: reading client specific options from: clients/vpn1
+Fri Feb 24 15:36:49 2017 vpn1/192.168.86.177:36196 MULTI: Learn: 10.8.2.1 -> vpn1/192.168.86.177:36196
+Fri Feb 24 15:36:49 2017 vpn1/192.168.86.177:36196 MULTI: primary virtual IP for vpn1/192.168.86.177:36196: 10.8.2.1
+Fri Feb 24 15:36:49 2017 TCP connection established with [AF_INET]192.168.86.181:44358
+Fri Feb 24 15:36:49 2017 192.168.86.181:44358 TLS: Initial packet from [AF_INET]192.168.86.181:44358, sid=97e6592a e8e9672f
+Fri Feb 24 15:36:49 2017 192.168.86.181:44358 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.181:44358 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn6, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:49 2017 192.168.86.181:44358 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.181:44358 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.181:44358 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:49 2017 192.168.86.181:44358 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:49 2017 192.168.86.181:44358 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:36:49 2017 192.168.86.181:44358 [vpn6] Peer Connection Initiated with [AF_INET]192.168.86.181:44358
+Fri Feb 24 15:36:49 2017 vpn6/192.168.86.181:44358 MULTI: no free --ifconfig-pool addresses are available
+Fri Feb 24 15:36:49 2017 vpn6/192.168.86.181:44358 MULTI: no dynamic or static remote --ifconfig address is available for vpn6/192.168.86.181:44358
+Fri Feb 24 15:36:51 2017 vpn5/192.168.86.180:37582 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:36:51 2017 vpn5/192.168.86.180:37582 send_push_reply(): safe_cap=940
+Fri Feb 24 15:36:51 2017 vpn5/192.168.86.180:37582 SENT CONTROL [vpn5]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.254.111 255.255.255.0' (status=1)
+Fri Feb 24 15:36:51 2017 vpn4/192.168.86.179:36528 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:36:51 2017 vpn4/192.168.86.179:36528 send_push_reply(): safe_cap=940
+Fri Feb 24 15:36:51 2017 vpn4/192.168.86.179:36528 SENT CONTROL [vpn4]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.3.2 255.255.255.0' (status=1)
+Fri Feb 24 15:36:51 2017 vpn6/192.168.86.181:44358 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:36:51 2017 vpn6/192.168.86.181:44358 send_push_reply(): safe_cap=940
+Fri Feb 24 15:36:51 2017 vpn6/192.168.86.181:44358 SENT CONTROL [vpn6]: 'PUSH_REPLY,ping 10,ping-restart 120' (status=1)
+Fri Feb 24 15:36:51 2017 vpn2/192.168.86.176:60226 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:36:51 2017 vpn2/192.168.86.176:60226 send_push_reply(): safe_cap=940
+Fri Feb 24 15:36:51 2017 vpn2/192.168.86.176:60226 SENT CONTROL [vpn2]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.2.2 255.255.255.0' (status=1)
+Fri Feb 24 15:36:51 2017 vpn3/192.168.86.178:52226 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:36:51 2017 vpn3/192.168.86.178:52226 send_push_reply(): safe_cap=940
+Fri Feb 24 15:36:51 2017 vpn3/192.168.86.178:52226 SENT CONTROL [vpn3]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.3.1 255.255.255.0' (status=1)
+Fri Feb 24 15:36:51 2017 vpn1/192.168.86.177:36196 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:36:51 2017 vpn1/192.168.86.177:36196 send_push_reply(): safe_cap=940
+Fri Feb 24 15:36:51 2017 vpn1/192.168.86.177:36196 SENT CONTROL [vpn1]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.2.1 255.255.255.0' (status=1)
+Fri Feb 24 15:36:52 2017 vpn5/192.168.86.180:37582 Connection reset, restarting [0]
+Fri Feb 24 15:36:52 2017 vpn5/192.168.86.180:37582 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 15:36:52 2017 vpn4/192.168.86.179:36528 Connection reset, restarting [0]
+Fri Feb 24 15:36:52 2017 vpn4/192.168.86.179:36528 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 15:36:52 2017 vpn6/192.168.86.181:44358 Connection reset, restarting [0]
+Fri Feb 24 15:36:52 2017 vpn6/192.168.86.181:44358 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 15:36:52 2017 vpn2/192.168.86.176:60226 Connection reset, restarting [0]
+Fri Feb 24 15:36:52 2017 vpn2/192.168.86.176:60226 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 15:36:52 2017 vpn3/192.168.86.178:52226 Connection reset, restarting [0]
+Fri Feb 24 15:36:52 2017 vpn3/192.168.86.178:52226 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 15:36:52 2017 vpn1/192.168.86.177:36196 Connection reset, restarting [0]
+Fri Feb 24 15:36:52 2017 vpn1/192.168.86.177:36196 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 15:36:58 2017 TCP connection established with [AF_INET]192.168.86.181:44360
+Fri Feb 24 15:36:59 2017 192.168.86.181:44360 TLS: Initial packet from [AF_INET]192.168.86.181:44360, sid=4e1b640e 37baf43e
+Fri Feb 24 15:36:59 2017 192.168.86.181:44360 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:59 2017 192.168.86.181:44360 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn6, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:36:59 2017 192.168.86.181:44360 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:59 2017 192.168.86.181:44360 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:59 2017 192.168.86.181:44360 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:36:59 2017 192.168.86.181:44360 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:36:59 2017 192.168.86.181:44360 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:36:59 2017 192.168.86.181:44360 [vpn6] Peer Connection Initiated with [AF_INET]192.168.86.181:44360
+Fri Feb 24 15:36:59 2017 vpn6/192.168.86.181:44360 MULTI_sva: pool returned IPv4=10.8.254.111, IPv6=(Not enabled)
+Fri Feb 24 15:36:59 2017 vpn6/192.168.86.181:44360 MULTI: Learn: 10.8.254.111 -> vpn6/192.168.86.181:44360
+Fri Feb 24 15:36:59 2017 vpn6/192.168.86.181:44360 MULTI: primary virtual IP for vpn6/192.168.86.181:44360: 10.8.254.111
+Fri Feb 24 15:37:01 2017 vpn6/192.168.86.181:44360 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:37:01 2017 vpn6/192.168.86.181:44360 send_push_reply(): safe_cap=940
+Fri Feb 24 15:37:01 2017 vpn6/192.168.86.181:44360 SENT CONTROL [vpn6]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.254.111 255.255.255.0' (status=1)
+Fri Feb 24 15:37:34 2017 TCP connection established with [AF_INET]192.168.86.180:37584
+Fri Feb 24 15:37:35 2017 192.168.86.180:37584 TLS: Initial packet from [AF_INET]192.168.86.180:37584, sid=57451f73 6f8b8e93
+Fri Feb 24 15:37:35 2017 192.168.86.180:37584 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:37:35 2017 192.168.86.180:37584 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn5, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:37:35 2017 192.168.86.180:37584 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:37:35 2017 192.168.86.180:37584 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:37:35 2017 192.168.86.180:37584 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:37:35 2017 192.168.86.180:37584 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:37:35 2017 192.168.86.180:37584 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:37:35 2017 192.168.86.180:37584 [vpn5] Peer Connection Initiated with [AF_INET]192.168.86.180:37584
+Fri Feb 24 15:37:35 2017 vpn5/192.168.86.180:37584 MULTI: no free --ifconfig-pool addresses are available
+Fri Feb 24 15:37:35 2017 vpn5/192.168.86.180:37584 MULTI: no dynamic or static remote --ifconfig address is available for vpn5/192.168.86.180:37584
+Fri Feb 24 15:37:37 2017 vpn5/192.168.86.180:37584 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:37:37 2017 vpn5/192.168.86.180:37584 send_push_reply(): safe_cap=940
+Fri Feb 24 15:37:37 2017 vpn5/192.168.86.180:37584 SENT CONTROL [vpn5]: 'PUSH_REPLY,ping 10,ping-restart 120' (status=1)
+Fri Feb 24 15:37:59 2017 vpn5/192.168.86.180:37584 Connection reset, restarting [0]
+Fri Feb 24 15:37:59 2017 vpn5/192.168.86.180:37584 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 15:38:00 2017 TCP connection established with [AF_INET]192.168.86.180:37586
+Fri Feb 24 15:38:01 2017 192.168.86.180:37586 TLS: Initial packet from [AF_INET]192.168.86.180:37586, sid=1be7455c bb3ec27d
+Fri Feb 24 15:38:01 2017 192.168.86.180:37586 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:38:01 2017 192.168.86.180:37586 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn5, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:38:01 2017 192.168.86.180:37586 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:38:01 2017 192.168.86.180:37586 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:38:01 2017 192.168.86.180:37586 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:38:01 2017 192.168.86.180:37586 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:38:01 2017 192.168.86.180:37586 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:38:01 2017 192.168.86.180:37586 [vpn5] Peer Connection Initiated with [AF_INET]192.168.86.180:37586
+Fri Feb 24 15:38:01 2017 vpn5/192.168.86.180:37586 MULTI: no free --ifconfig-pool addresses are available
+Fri Feb 24 15:38:01 2017 vpn5/192.168.86.180:37586 MULTI: no dynamic or static remote --ifconfig address is available for vpn5/192.168.86.180:37586
+Fri Feb 24 15:38:03 2017 vpn5/192.168.86.180:37586 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:38:03 2017 vpn5/192.168.86.180:37586 send_push_reply(): safe_cap=940
+Fri Feb 24 15:38:03 2017 vpn5/192.168.86.180:37586 SENT CONTROL [vpn5]: 'PUSH_REPLY,ping 10,ping-restart 120' (status=1)
+Fri Feb 24 15:38:58 2017 Closing TUN/TAP interface
+Fri Feb 24 15:38:58 2017 /sbin/ip addr del dev tun0 10.8.0.1/16
+RTNETLINK answers: Operation not permitted
+Fri Feb 24 15:38:58 2017 Linux ip addr del failed: external program exited with error status: 2
+Fri Feb 24 15:38:58 2017 SIGTERM[hard,] received, process exiting
+Fri Feb 24 15:38:58 2017 OpenVPN 2.3.10 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Feb  2 2016
+Fri Feb 24 15:38:58 2017 library versions: OpenSSL 1.0.2g  1 Mar 2016, LZO 2.08
+Fri Feb 24 15:38:58 2017 Diffie-Hellman initialized with 2048 bit key
+Fri Feb 24 15:38:58 2017 Control Channel Authentication: using 'ta.key' as a OpenVPN static key file
+Fri Feb 24 15:38:58 2017 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:38:58 2017 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:38:58 2017 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Fri Feb 24 15:38:58 2017 TUN/TAP device tun0 opened
+Fri Feb 24 15:38:58 2017 TUN/TAP TX queue length set to 100
+Fri Feb 24 15:38:58 2017 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Fri Feb 24 15:38:58 2017 /sbin/ip link set dev tun0 up mtu 1500
+Fri Feb 24 15:38:58 2017 /sbin/ip addr add dev tun0 10.8.0.1/16 broadcast 10.8.255.255
+Fri Feb 24 15:38:58 2017 GID set to nogroup
+Fri Feb 24 15:38:58 2017 UID set to nobody
+Fri Feb 24 15:38:58 2017 Listening for incoming TCP connection on [undef]
+Fri Feb 24 15:38:58 2017 TCPv4_SERVER link local (bound): [undef]
+Fri Feb 24 15:38:58 2017 TCPv4_SERVER link remote: [undef]
+Fri Feb 24 15:38:58 2017 MULTI: multi_init called, r=256 v=256
+Fri Feb 24 15:38:58 2017 IFCONFIG POOL: base=10.8.254.111 size=1, ipv6=0
+Fri Feb 24 15:38:58 2017 ifconfig_pool_read(), in='vpn6,10.8.254.111', TODO: IPv6
+Fri Feb 24 15:38:58 2017 succeeded -> ifconfig_pool_set()
+Fri Feb 24 15:38:58 2017 IFCONFIG POOL LIST
+Fri Feb 24 15:38:58 2017 vpn6,10.8.254.111
+Fri Feb 24 15:38:58 2017 MULTI: TCP INIT maxclients=1024 maxevents=1028
+Fri Feb 24 15:38:58 2017 Initialization Sequence Completed
+Fri Feb 24 15:39:03 2017 TCP connection established with [AF_INET]192.168.86.180:37588
+Fri Feb 24 15:39:03 2017 192.168.86.180:37588 TCP connection established with [AF_INET]192.168.86.181:44362
+Fri Feb 24 15:39:04 2017 192.168.86.180:37588 TLS: Initial packet from [AF_INET]192.168.86.180:37588, sid=7530de45 b1f26b58
+Fri Feb 24 15:39:04 2017 192.168.86.181:44362 TLS: Initial packet from [AF_INET]192.168.86.181:44362, sid=b1154278 89851a58
+Fri Feb 24 15:39:04 2017 192.168.86.181:44362 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:39:04 2017 192.168.86.181:44362 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn6, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:39:04 2017 192.168.86.180:37588 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:39:04 2017 192.168.86.180:37588 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn5, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:39:04 2017 192.168.86.181:44362 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:39:04 2017 192.168.86.181:44362 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:39:04 2017 192.168.86.181:44362 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:39:04 2017 192.168.86.181:44362 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:39:04 2017 192.168.86.181:44362 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:39:04 2017 192.168.86.181:44362 [vpn6] Peer Connection Initiated with [AF_INET]192.168.86.181:44362
+Fri Feb 24 15:39:04 2017 vpn6/192.168.86.181:44362 MULTI_sva: pool returned IPv4=10.8.254.111, IPv6=(Not enabled)
+Fri Feb 24 15:39:04 2017 vpn6/192.168.86.181:44362 MULTI: Learn: 10.8.254.111 -> vpn6/192.168.86.181:44362
+Fri Feb 24 15:39:04 2017 vpn6/192.168.86.181:44362 MULTI: primary virtual IP for vpn6/192.168.86.181:44362: 10.8.254.111
+Fri Feb 24 15:39:04 2017 192.168.86.180:37588 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:39:04 2017 192.168.86.180:37588 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:39:04 2017 192.168.86.180:37588 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:39:04 2017 192.168.86.180:37588 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:39:04 2017 192.168.86.180:37588 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:39:04 2017 192.168.86.180:37588 [vpn5] Peer Connection Initiated with [AF_INET]192.168.86.180:37588
+Fri Feb 24 15:39:04 2017 vpn5/192.168.86.180:37588 MULTI: no free --ifconfig-pool addresses are available
+Fri Feb 24 15:39:04 2017 vpn5/192.168.86.180:37588 MULTI: no dynamic or static remote --ifconfig address is available for vpn5/192.168.86.180:37588
+Fri Feb 24 15:39:06 2017 vpn5/192.168.86.180:37588 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:39:06 2017 vpn5/192.168.86.180:37588 send_push_reply(): safe_cap=940
+Fri Feb 24 15:39:06 2017 vpn5/192.168.86.180:37588 SENT CONTROL [vpn5]: 'PUSH_REPLY,ping 10,ping-restart 120' (status=1)
+Fri Feb 24 15:39:06 2017 vpn6/192.168.86.181:44362 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:39:06 2017 vpn6/192.168.86.181:44362 send_push_reply(): safe_cap=940
+Fri Feb 24 15:39:06 2017 vpn6/192.168.86.181:44362 SENT CONTROL [vpn6]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.254.111 255.255.255.0' (status=1)
+Fri Feb 24 15:57:10 2017 Closing TUN/TAP interface
+Fri Feb 24 15:57:10 2017 /sbin/ip addr del dev tun0 10.8.0.1/16
+RTNETLINK answers: Operation not permitted
+Fri Feb 24 15:57:10 2017 Linux ip addr del failed: external program exited with error status: 2
+Fri Feb 24 15:57:10 2017 SIGTERM[hard,] received, process exiting
+Fri Feb 24 15:57:10 2017 OpenVPN 2.3.10 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Feb  2 2016
+Fri Feb 24 15:57:10 2017 library versions: OpenSSL 1.0.2g  1 Mar 2016, LZO 2.08
+Fri Feb 24 15:57:10 2017 Diffie-Hellman initialized with 2048 bit key
+Fri Feb 24 15:57:10 2017 Control Channel Authentication: using 'ta.key' as a OpenVPN static key file
+Fri Feb 24 15:57:10 2017 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:10 2017 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:10 2017 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Fri Feb 24 15:57:10 2017 TUN/TAP device tun0 opened
+Fri Feb 24 15:57:10 2017 TUN/TAP TX queue length set to 100
+Fri Feb 24 15:57:10 2017 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Fri Feb 24 15:57:10 2017 /sbin/ip link set dev tun0 up mtu 1500
+Fri Feb 24 15:57:10 2017 /sbin/ip addr add dev tun0 10.8.0.1/16 broadcast 10.8.255.255
+Fri Feb 24 15:57:10 2017 GID set to nogroup
+Fri Feb 24 15:57:10 2017 UID set to nobody
+Fri Feb 24 15:57:10 2017 Listening for incoming TCP connection on [undef]
+Fri Feb 24 15:57:10 2017 TCPv4_SERVER link local (bound): [undef]
+Fri Feb 24 15:57:10 2017 TCPv4_SERVER link remote: [undef]
+Fri Feb 24 15:57:10 2017 MULTI: multi_init called, r=256 v=256
+Fri Feb 24 15:57:10 2017 IFCONFIG POOL: base=10.8.254.111 size=1, ipv6=0
+Fri Feb 24 15:57:10 2017 ifconfig_pool_read(), in='vpn6,10.8.254.111', TODO: IPv6
+Fri Feb 24 15:57:10 2017 succeeded -> ifconfig_pool_set()
+Fri Feb 24 15:57:10 2017 IFCONFIG POOL LIST
+Fri Feb 24 15:57:10 2017 vpn6,10.8.254.111
+Fri Feb 24 15:57:10 2017 MULTI: TCP INIT maxclients=1024 maxevents=1028
+Fri Feb 24 15:57:10 2017 Initialization Sequence Completed
+Fri Feb 24 15:57:15 2017 TCP connection established with [AF_INET]192.168.86.180:37590
+Fri Feb 24 15:57:15 2017 192.168.86.180:37590 TCP connection established with [AF_INET]192.168.86.181:44364
+Fri Feb 24 15:57:16 2017 192.168.86.180:37590 TLS: Initial packet from [AF_INET]192.168.86.180:37590, sid=40ad83fa 79a9473e
+Fri Feb 24 15:57:16 2017 192.168.86.181:44364 TLS: Initial packet from [AF_INET]192.168.86.181:44364, sid=e7f6bfb8 9d6db59e
+Fri Feb 24 15:57:16 2017 192.168.86.181:44364 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:16 2017 192.168.86.181:44364 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn6, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:16 2017 192.168.86.180:37590 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:16 2017 192.168.86.180:37590 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn5, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:16 2017 192.168.86.181:44364 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:16 2017 192.168.86.181:44364 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:16 2017 192.168.86.181:44364 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:16 2017 192.168.86.181:44364 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:16 2017 192.168.86.181:44364 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:57:16 2017 192.168.86.181:44364 [vpn6] Peer Connection Initiated with [AF_INET]192.168.86.181:44364
+Fri Feb 24 15:57:16 2017 vpn6/192.168.86.181:44364 MULTI_sva: pool returned IPv4=10.8.254.111, IPv6=(Not enabled)
+Fri Feb 24 15:57:16 2017 vpn6/192.168.86.181:44364 MULTI: Learn: 10.8.254.111 -> vpn6/192.168.86.181:44364
+Fri Feb 24 15:57:16 2017 vpn6/192.168.86.181:44364 MULTI: primary virtual IP for vpn6/192.168.86.181:44364: 10.8.254.111
+Fri Feb 24 15:57:16 2017 192.168.86.180:37590 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:16 2017 192.168.86.180:37590 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:16 2017 192.168.86.180:37590 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:16 2017 192.168.86.180:37590 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:16 2017 192.168.86.180:37590 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:57:16 2017 192.168.86.180:37590 [vpn5] Peer Connection Initiated with [AF_INET]192.168.86.180:37590
+Fri Feb 24 15:57:16 2017 vpn5/192.168.86.180:37590 MULTI: no free --ifconfig-pool addresses are available
+Fri Feb 24 15:57:16 2017 vpn5/192.168.86.180:37590 MULTI: no dynamic or static remote --ifconfig address is available for vpn5/192.168.86.180:37590
+Fri Feb 24 15:57:19 2017 vpn5/192.168.86.180:37590 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:57:19 2017 vpn5/192.168.86.180:37590 send_push_reply(): safe_cap=940
+Fri Feb 24 15:57:19 2017 vpn5/192.168.86.180:37590 SENT CONTROL [vpn5]: 'PUSH_REPLY,ping 10,ping-restart 120' (status=1)
+Fri Feb 24 15:57:19 2017 vpn6/192.168.86.181:44364 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:57:19 2017 vpn6/192.168.86.181:44364 send_push_reply(): safe_cap=940
+Fri Feb 24 15:57:19 2017 vpn6/192.168.86.181:44364 SENT CONTROL [vpn6]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.254.111 255.255.255.0' (status=1)
+Fri Feb 24 15:57:21 2017 TCP connection established with [AF_INET]192.168.86.177:36198
+Fri Feb 24 15:57:22 2017 192.168.86.177:36198 TLS: Initial packet from [AF_INET]192.168.86.177:36198, sid=87c3b783 9d3cda34
+Fri Feb 24 15:57:22 2017 192.168.86.177:36198 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:22 2017 192.168.86.177:36198 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn1, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:22 2017 192.168.86.177:36198 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:22 2017 192.168.86.177:36198 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:22 2017 192.168.86.177:36198 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:22 2017 192.168.86.177:36198 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:22 2017 192.168.86.177:36198 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:57:22 2017 192.168.86.177:36198 [vpn1] Peer Connection Initiated with [AF_INET]192.168.86.177:36198
+Fri Feb 24 15:57:22 2017 vpn1/192.168.86.177:36198 OPTIONS IMPORT: reading client specific options from: clients/vpn1
+Fri Feb 24 15:57:22 2017 vpn1/192.168.86.177:36198 MULTI: Learn: 10.8.2.1 -> vpn1/192.168.86.177:36198
+Fri Feb 24 15:57:22 2017 vpn1/192.168.86.177:36198 MULTI: primary virtual IP for vpn1/192.168.86.177:36198: 10.8.2.1
+Fri Feb 24 15:57:24 2017 vpn1/192.168.86.177:36198 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:57:24 2017 vpn1/192.168.86.177:36198 send_push_reply(): safe_cap=940
+Fri Feb 24 15:57:24 2017 vpn1/192.168.86.177:36198 SENT CONTROL [vpn1]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.2.1 255.255.255.0' (status=1)
+Fri Feb 24 15:57:33 2017 TCP connection established with [AF_INET]192.168.86.176:60228
+Fri Feb 24 15:57:34 2017 192.168.86.176:60228 TLS: Initial packet from [AF_INET]192.168.86.176:60228, sid=6f18404f 2828c11e
+Fri Feb 24 15:57:34 2017 192.168.86.176:60228 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:34 2017 192.168.86.176:60228 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn2, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:34 2017 192.168.86.176:60228 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:34 2017 192.168.86.176:60228 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:34 2017 192.168.86.176:60228 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:34 2017 192.168.86.176:60228 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:34 2017 192.168.86.176:60228 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:57:34 2017 192.168.86.176:60228 [vpn2] Peer Connection Initiated with [AF_INET]192.168.86.176:60228
+Fri Feb 24 15:57:34 2017 vpn2/192.168.86.176:60228 OPTIONS IMPORT: reading client specific options from: clients/vpn2
+Fri Feb 24 15:57:34 2017 vpn2/192.168.86.176:60228 MULTI: Learn: 10.8.2.2 -> vpn2/192.168.86.176:60228
+Fri Feb 24 15:57:34 2017 vpn2/192.168.86.176:60228 MULTI: primary virtual IP for vpn2/192.168.86.176:60228: 10.8.2.2
+Fri Feb 24 15:57:37 2017 vpn2/192.168.86.176:60228 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:57:37 2017 vpn2/192.168.86.176:60228 send_push_reply(): safe_cap=940
+Fri Feb 24 15:57:37 2017 vpn2/192.168.86.176:60228 SENT CONTROL [vpn2]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.2.2 255.255.255.0' (status=1)
+Fri Feb 24 15:57:44 2017 TCP connection established with [AF_INET]192.168.86.178:52228
+Fri Feb 24 15:57:45 2017 192.168.86.178:52228 TLS: Initial packet from [AF_INET]192.168.86.178:52228, sid=2a3b55cd c74d7719
+Fri Feb 24 15:57:45 2017 192.168.86.178:52228 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:45 2017 192.168.86.178:52228 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn3, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:45 2017 192.168.86.178:52228 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:45 2017 192.168.86.178:52228 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:45 2017 192.168.86.178:52228 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:45 2017 192.168.86.178:52228 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:45 2017 192.168.86.178:52228 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:57:45 2017 192.168.86.178:52228 [vpn3] Peer Connection Initiated with [AF_INET]192.168.86.178:52228
+Fri Feb 24 15:57:45 2017 vpn3/192.168.86.178:52228 OPTIONS IMPORT: reading client specific options from: clients/vpn3
+Fri Feb 24 15:57:45 2017 vpn3/192.168.86.178:52228 MULTI: Learn: 10.8.3.1 -> vpn3/192.168.86.178:52228
+Fri Feb 24 15:57:45 2017 vpn3/192.168.86.178:52228 MULTI: primary virtual IP for vpn3/192.168.86.178:52228: 10.8.3.1
+Fri Feb 24 15:57:47 2017 vpn3/192.168.86.178:52228 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:57:47 2017 vpn3/192.168.86.178:52228 send_push_reply(): safe_cap=940
+Fri Feb 24 15:57:47 2017 vpn3/192.168.86.178:52228 SENT CONTROL [vpn3]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.3.1 255.255.255.0' (status=1)
+Fri Feb 24 15:57:52 2017 TCP connection established with [AF_INET]192.168.86.179:36530
+Fri Feb 24 15:57:53 2017 192.168.86.179:36530 TLS: Initial packet from [AF_INET]192.168.86.179:36530, sid=6c22bcea ea5fa0d9
+Fri Feb 24 15:57:53 2017 192.168.86.179:36530 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:53 2017 192.168.86.179:36530 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn4, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:57:53 2017 192.168.86.179:36530 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:53 2017 192.168.86.179:36530 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:53 2017 192.168.86.179:36530 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:57:53 2017 192.168.86.179:36530 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:57:53 2017 192.168.86.179:36530 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:57:53 2017 192.168.86.179:36530 [vpn4] Peer Connection Initiated with [AF_INET]192.168.86.179:36530
+Fri Feb 24 15:57:53 2017 vpn4/192.168.86.179:36530 OPTIONS IMPORT: reading client specific options from: clients/vpn4
+Fri Feb 24 15:57:53 2017 vpn4/192.168.86.179:36530 MULTI: Learn: 10.8.3.2 -> vpn4/192.168.86.179:36530
+Fri Feb 24 15:57:53 2017 vpn4/192.168.86.179:36530 MULTI: primary virtual IP for vpn4/192.168.86.179:36530: 10.8.3.2
+Fri Feb 24 15:57:56 2017 vpn4/192.168.86.179:36530 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:57:56 2017 vpn4/192.168.86.179:36530 send_push_reply(): safe_cap=940
+Fri Feb 24 15:57:56 2017 vpn4/192.168.86.179:36530 SENT CONTROL [vpn4]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.3.2 255.255.255.0' (status=1)
+Fri Feb 24 15:58:02 2017 vpn5/192.168.86.180:37590 Connection reset, restarting [0]
+Fri Feb 24 15:58:02 2017 vpn5/192.168.86.180:37590 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 15:58:02 2017 TCP connection established with [AF_INET]192.168.86.180:37592
+Fri Feb 24 15:58:03 2017 192.168.86.180:37592 TLS: Initial packet from [AF_INET]192.168.86.180:37592, sid=d40dd7e6 d9bbea92
+Fri Feb 24 15:58:03 2017 192.168.86.180:37592 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:58:03 2017 192.168.86.180:37592 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn5, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:58:03 2017 192.168.86.180:37592 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:58:03 2017 192.168.86.180:37592 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:58:03 2017 192.168.86.180:37592 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:58:03 2017 192.168.86.180:37592 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:58:03 2017 192.168.86.180:37592 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:58:03 2017 192.168.86.180:37592 [vpn5] Peer Connection Initiated with [AF_INET]192.168.86.180:37592
+Fri Feb 24 15:58:03 2017 vpn5/192.168.86.180:37592 MULTI: no free --ifconfig-pool addresses are available
+Fri Feb 24 15:58:03 2017 vpn5/192.168.86.180:37592 MULTI: no dynamic or static remote --ifconfig address is available for vpn5/192.168.86.180:37592
+Fri Feb 24 15:58:05 2017 vpn5/192.168.86.180:37592 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:58:05 2017 vpn5/192.168.86.180:37592 send_push_reply(): safe_cap=940
+Fri Feb 24 15:58:05 2017 vpn5/192.168.86.180:37592 SENT CONTROL [vpn5]: 'PUSH_REPLY,ping 10,ping-restart 120' (status=1)
+Fri Feb 24 15:58:11 2017 vpn6/192.168.86.181:44364 Connection reset, restarting [0]
+Fri Feb 24 15:58:11 2017 vpn6/192.168.86.181:44364 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 15:58:11 2017 TCP connection established with [AF_INET]192.168.86.181:44366
+Fri Feb 24 15:58:12 2017 192.168.86.181:44366 TLS: Initial packet from [AF_INET]192.168.86.181:44366, sid=a0a3ac12 a02e0aca
+Fri Feb 24 15:58:12 2017 192.168.86.181:44366 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:58:12 2017 192.168.86.181:44366 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn6, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 15:58:12 2017 192.168.86.181:44366 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:58:12 2017 192.168.86.181:44366 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:58:12 2017 192.168.86.181:44366 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 15:58:12 2017 192.168.86.181:44366 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 15:58:12 2017 192.168.86.181:44366 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 15:58:12 2017 192.168.86.181:44366 [vpn6] Peer Connection Initiated with [AF_INET]192.168.86.181:44366
+Fri Feb 24 15:58:12 2017 vpn6/192.168.86.181:44366 MULTI_sva: pool returned IPv4=10.8.254.111, IPv6=(Not enabled)
+Fri Feb 24 15:58:12 2017 vpn6/192.168.86.181:44366 MULTI: Learn: 10.8.254.111 -> vpn6/192.168.86.181:44366
+Fri Feb 24 15:58:12 2017 vpn6/192.168.86.181:44366 MULTI: primary virtual IP for vpn6/192.168.86.181:44366: 10.8.254.111
+Fri Feb 24 15:58:14 2017 vpn6/192.168.86.181:44366 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 15:58:14 2017 vpn6/192.168.86.181:44366 send_push_reply(): safe_cap=940
+Fri Feb 24 15:58:14 2017 vpn6/192.168.86.181:44366 SENT CONTROL [vpn6]: 'PUSH_REPLY,ping 10,ping-restart 120,ifconfig 10.8.254.111 255.255.255.0' (status=1)
+Fri Feb 24 16:09:40 2017 Closing TUN/TAP interface
+Fri Feb 24 16:09:40 2017 /sbin/ip addr del dev tun0 10.8.0.1/16
+RTNETLINK answers: Operation not permitted
+Fri Feb 24 16:09:40 2017 Linux ip addr del failed: external program exited with error status: 2
+Fri Feb 24 16:09:40 2017 SIGTERM[hard,] received, process exiting
+Fri Feb 24 16:09:40 2017 OpenVPN 2.3.10 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Feb  2 2016
+Fri Feb 24 16:09:40 2017 library versions: OpenSSL 1.0.2g  1 Mar 2016, LZO 2.08
+Fri Feb 24 16:09:40 2017 Diffie-Hellman initialized with 2048 bit key
+Fri Feb 24 16:09:40 2017 Control Channel Authentication: using 'ta.key' as a OpenVPN static key file
+Fri Feb 24 16:09:40 2017 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:40 2017 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:40 2017 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Fri Feb 24 16:09:40 2017 TUN/TAP device tun0 opened
+Fri Feb 24 16:09:40 2017 TUN/TAP TX queue length set to 100
+Fri Feb 24 16:09:40 2017 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Fri Feb 24 16:09:40 2017 /sbin/ip link set dev tun0 up mtu 1500
+Fri Feb 24 16:09:40 2017 /sbin/ip addr add dev tun0 10.8.0.1/16 broadcast 10.8.255.255
+Fri Feb 24 16:09:40 2017 GID set to nogroup
+Fri Feb 24 16:09:40 2017 UID set to nobody
+Fri Feb 24 16:09:40 2017 Listening for incoming TCP connection on [undef]
+Fri Feb 24 16:09:40 2017 TCPv4_SERVER link local (bound): [undef]
+Fri Feb 24 16:09:40 2017 TCPv4_SERVER link remote: [undef]
+Fri Feb 24 16:09:40 2017 MULTI: multi_init called, r=256 v=256
+Fri Feb 24 16:09:40 2017 IFCONFIG POOL: base=10.8.254.111 size=1, ipv6=0
+Fri Feb 24 16:09:40 2017 ifconfig_pool_read(), in='vpn6,10.8.254.111', TODO: IPv6
+Fri Feb 24 16:09:40 2017 succeeded -> ifconfig_pool_set()
+Fri Feb 24 16:09:40 2017 IFCONFIG POOL LIST
+Fri Feb 24 16:09:40 2017 vpn6,10.8.254.111
+Fri Feb 24 16:09:40 2017 MULTI: TCP INIT maxclients=1024 maxevents=1028
+Fri Feb 24 16:09:40 2017 Initialization Sequence Completed
+Fri Feb 24 16:09:45 2017 TCP connection established with [AF_INET]192.168.86.176:60230
+Fri Feb 24 16:09:45 2017 192.168.86.176:60230 TCP connection established with [AF_INET]192.168.86.177:36200
+Fri Feb 24 16:09:46 2017 192.168.86.177:36200 TCP connection established with [AF_INET]192.168.86.178:52230
+Fri Feb 24 16:09:46 2017 192.168.86.177:36200 TLS: Initial packet from [AF_INET]192.168.86.177:36200, sid=df6cfa3f ef3f4fcd
+Fri Feb 24 16:09:46 2017 192.168.86.176:60230 TLS: Initial packet from [AF_INET]192.168.86.176:60230, sid=ac663522 30159600
+Fri Feb 24 16:09:46 2017 TCP connection established with [AF_INET]192.168.86.179:36532
+Fri Feb 24 16:09:46 2017 192.168.86.178:52230 TLS: Initial packet from [AF_INET]192.168.86.178:52230, sid=dfcf4875 ac359928
+Fri Feb 24 16:09:46 2017 192.168.86.179:36532 TLS: Initial packet from [AF_INET]192.168.86.179:36532, sid=70b36889 4db252e1
+Fri Feb 24 16:09:46 2017 TCP connection established with [AF_INET]192.168.86.181:44368
+Fri Feb 24 16:09:46 2017 192.168.86.181:44368 TLS: Initial packet from [AF_INET]192.168.86.181:44368, sid=96eaa100 ba7abe62
+Fri Feb 24 16:09:46 2017 192.168.86.179:36532 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.179:36532 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn4, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.178:52230 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.178:52230 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn3, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.181:44368 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.181:44368 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn6, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.177:36200 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.177:36200 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn1, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.176:60230 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.176:60230 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn2, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.178:52230 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:46 2017 192.168.86.178:52230 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:46 2017 192.168.86.178:52230 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:46 2017 192.168.86.178:52230 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:46 2017 192.168.86.179:36532 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:46 2017 192.168.86.179:36532 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:46 2017 192.168.86.179:36532 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:46 2017 192.168.86.179:36532 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:46 2017 192.168.86.178:52230 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:09:46 2017 192.168.86.178:52230 [vpn3] Peer Connection Initiated with [AF_INET]192.168.86.178:52230
+Fri Feb 24 16:09:46 2017 vpn3/192.168.86.178:52230 OPTIONS IMPORT: reading client specific options from: clients/vpn3
+Fri Feb 24 16:09:46 2017 vpn3/192.168.86.178:52230 MULTI: Learn: 10.8.3.1 -> vpn3/192.168.86.178:52230
+Fri Feb 24 16:09:46 2017 vpn3/192.168.86.178:52230 MULTI: primary virtual IP for vpn3/192.168.86.178:52230: 10.8.3.1
+Fri Feb 24 16:09:46 2017 192.168.86.179:36532 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:09:46 2017 192.168.86.179:36532 [vpn4] Peer Connection Initiated with [AF_INET]192.168.86.179:36532
+Fri Feb 24 16:09:46 2017 vpn4/192.168.86.179:36532 OPTIONS IMPORT: reading client specific options from: clients/vpn4
+Fri Feb 24 16:09:46 2017 vpn4/192.168.86.179:36532 MULTI: Learn: 10.8.3.2 -> vpn4/192.168.86.179:36532
+Fri Feb 24 16:09:46 2017 vpn4/192.168.86.179:36532 MULTI: primary virtual IP for vpn4/192.168.86.179:36532: 10.8.3.2
+Fri Feb 24 16:09:46 2017 192.168.86.181:44368 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:46 2017 192.168.86.181:44368 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:46 2017 192.168.86.181:44368 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:46 2017 192.168.86.181:44368 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:46 2017 192.168.86.176:60230 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:46 2017 192.168.86.176:60230 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:46 2017 192.168.86.176:60230 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:46 2017 192.168.86.176:60230 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:46 2017 192.168.86.181:44368 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:09:46 2017 192.168.86.181:44368 [vpn6] Peer Connection Initiated with [AF_INET]192.168.86.181:44368
+Fri Feb 24 16:09:46 2017 vpn6/192.168.86.181:44368 MULTI_sva: pool returned IPv4=10.8.254.111, IPv6=(Not enabled)
+Fri Feb 24 16:09:46 2017 vpn6/192.168.86.181:44368 MULTI: Learn: 10.8.254.111 -> vpn6/192.168.86.181:44368
+Fri Feb 24 16:09:46 2017 vpn6/192.168.86.181:44368 MULTI: primary virtual IP for vpn6/192.168.86.181:44368: 10.8.254.111
+Fri Feb 24 16:09:46 2017 192.168.86.177:36200 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:46 2017 192.168.86.177:36200 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:46 2017 192.168.86.177:36200 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:46 2017 192.168.86.177:36200 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:46 2017 192.168.86.176:60230 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:09:46 2017 192.168.86.176:60230 [vpn2] Peer Connection Initiated with [AF_INET]192.168.86.176:60230
+Fri Feb 24 16:09:46 2017 vpn2/192.168.86.176:60230 OPTIONS IMPORT: reading client specific options from: clients/vpn2
+Fri Feb 24 16:09:46 2017 vpn2/192.168.86.176:60230 MULTI: Learn: 10.8.2.2 -> vpn2/192.168.86.176:60230
+Fri Feb 24 16:09:46 2017 vpn2/192.168.86.176:60230 MULTI: primary virtual IP for vpn2/192.168.86.176:60230: 10.8.2.2
+Fri Feb 24 16:09:46 2017 192.168.86.177:36200 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:09:46 2017 192.168.86.177:36200 [vpn1] Peer Connection Initiated with [AF_INET]192.168.86.177:36200
+Fri Feb 24 16:09:46 2017 vpn1/192.168.86.177:36200 OPTIONS IMPORT: reading client specific options from: clients/vpn1
+Fri Feb 24 16:09:46 2017 vpn1/192.168.86.177:36200 MULTI: Learn: 10.8.2.1 -> vpn1/192.168.86.177:36200
+Fri Feb 24 16:09:46 2017 vpn1/192.168.86.177:36200 MULTI: primary virtual IP for vpn1/192.168.86.177:36200: 10.8.2.1
+Fri Feb 24 16:09:46 2017 TCP connection established with [AF_INET]192.168.86.180:37594
+Fri Feb 24 16:09:46 2017 192.168.86.180:37594 TLS: Initial packet from [AF_INET]192.168.86.180:37594, sid=1aed9130 3725d605
+Fri Feb 24 16:09:46 2017 192.168.86.180:37594 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:46 2017 192.168.86.180:37594 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn5, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:47 2017 192.168.86.180:37594 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:47 2017 192.168.86.180:37594 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:47 2017 192.168.86.180:37594 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:47 2017 192.168.86.180:37594 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:47 2017 192.168.86.180:37594 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:09:47 2017 192.168.86.180:37594 [vpn5] Peer Connection Initiated with [AF_INET]192.168.86.180:37594
+Fri Feb 24 16:09:47 2017 vpn5/192.168.86.180:37594 MULTI: no free --ifconfig-pool addresses are available
+Fri Feb 24 16:09:47 2017 vpn5/192.168.86.180:37594 MULTI: no dynamic or static remote --ifconfig address is available for vpn5/192.168.86.180:37594
+Fri Feb 24 16:09:48 2017 vpn3/192.168.86.178:52230 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:09:48 2017 vpn3/192.168.86.178:52230 send_push_reply(): safe_cap=940
+Fri Feb 24 16:09:48 2017 vpn3/192.168.86.178:52230 SENT CONTROL [vpn3]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.3.1 255.255.255.0' (status=1)
+Fri Feb 24 16:09:48 2017 vpn6/192.168.86.181:44368 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:09:48 2017 vpn6/192.168.86.181:44368 send_push_reply(): safe_cap=940
+Fri Feb 24 16:09:48 2017 vpn6/192.168.86.181:44368 SENT CONTROL [vpn6]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.254.111 255.255.255.0' (status=1)
+Fri Feb 24 16:09:48 2017 vpn2/192.168.86.176:60230 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:09:48 2017 vpn2/192.168.86.176:60230 send_push_reply(): safe_cap=940
+Fri Feb 24 16:09:48 2017 vpn2/192.168.86.176:60230 SENT CONTROL [vpn2]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.2.2 255.255.255.0' (status=1)
+Fri Feb 24 16:09:49 2017 vpn4/192.168.86.179:36532 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:09:49 2017 vpn4/192.168.86.179:36532 send_push_reply(): safe_cap=940
+Fri Feb 24 16:09:49 2017 vpn4/192.168.86.179:36532 SENT CONTROL [vpn4]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.3.2 255.255.255.0' (status=1)
+Fri Feb 24 16:09:49 2017 vpn1/192.168.86.177:36200 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:09:49 2017 vpn1/192.168.86.177:36200 send_push_reply(): safe_cap=940
+Fri Feb 24 16:09:49 2017 vpn1/192.168.86.177:36200 SENT CONTROL [vpn1]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.2.1 255.255.255.0' (status=1)
+Fri Feb 24 16:09:49 2017 vpn5/192.168.86.180:37594 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:09:49 2017 vpn5/192.168.86.180:37594 send_push_reply(): safe_cap=940
+Fri Feb 24 16:09:49 2017 vpn5/192.168.86.180:37594 SENT CONTROL [vpn5]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120' (status=1)
+Fri Feb 24 16:09:49 2017 vpn1/192.168.86.177:36200 Connection reset, restarting [0]
+Fri Feb 24 16:09:49 2017 vpn1/192.168.86.177:36200 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:09:49 2017 TCP connection established with [AF_INET]192.168.86.177:36202
+Fri Feb 24 16:09:49 2017 vpn3/192.168.86.178:52230 Connection reset, restarting [0]
+Fri Feb 24 16:09:49 2017 vpn3/192.168.86.178:52230 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:09:50 2017 vpn6/192.168.86.181:44368 Connection reset, restarting [0]
+Fri Feb 24 16:09:50 2017 vpn6/192.168.86.181:44368 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:09:50 2017 vpn2/192.168.86.176:60230 Connection reset, restarting [0]
+Fri Feb 24 16:09:50 2017 vpn2/192.168.86.176:60230 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:09:50 2017 vpn4/192.168.86.179:36532 Connection reset, restarting [0]
+Fri Feb 24 16:09:50 2017 vpn4/192.168.86.179:36532 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:09:50 2017 192.168.86.177:36202 TLS: Initial packet from [AF_INET]192.168.86.177:36202, sid=c819f0ca 1163c2d7
+Fri Feb 24 16:09:50 2017 vpn5/192.168.86.180:37594 Connection reset, restarting [0]
+Fri Feb 24 16:09:50 2017 vpn5/192.168.86.180:37594 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:09:50 2017 192.168.86.177:36202 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:50 2017 192.168.86.177:36202 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn1, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:50 2017 192.168.86.177:36202 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:50 2017 192.168.86.177:36202 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:50 2017 192.168.86.177:36202 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:50 2017 192.168.86.177:36202 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:50 2017 192.168.86.177:36202 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:09:50 2017 192.168.86.177:36202 [vpn1] Peer Connection Initiated with [AF_INET]192.168.86.177:36202
+Fri Feb 24 16:09:50 2017 vpn1/192.168.86.177:36202 OPTIONS IMPORT: reading client specific options from: clients/vpn1
+Fri Feb 24 16:09:50 2017 vpn1/192.168.86.177:36202 MULTI: Learn: 10.8.2.1 -> vpn1/192.168.86.177:36202
+Fri Feb 24 16:09:50 2017 vpn1/192.168.86.177:36202 MULTI: primary virtual IP for vpn1/192.168.86.177:36202: 10.8.2.1
+Fri Feb 24 16:09:52 2017 vpn1/192.168.86.177:36202 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:09:52 2017 vpn1/192.168.86.177:36202 send_push_reply(): safe_cap=940
+Fri Feb 24 16:09:52 2017 vpn1/192.168.86.177:36202 SENT CONTROL [vpn1]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.2.1 255.255.255.0' (status=1)
+Fri Feb 24 16:09:56 2017 TCP connection established with [AF_INET]192.168.86.176:60232
+Fri Feb 24 16:09:57 2017 192.168.86.176:60232 TLS: Initial packet from [AF_INET]192.168.86.176:60232, sid=7d4a3205 336924f2
+Fri Feb 24 16:09:57 2017 192.168.86.176:60232 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:57 2017 192.168.86.176:60232 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn2, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:09:57 2017 192.168.86.176:60232 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:57 2017 192.168.86.176:60232 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:57 2017 192.168.86.176:60232 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:09:57 2017 192.168.86.176:60232 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:09:57 2017 192.168.86.176:60232 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:09:57 2017 192.168.86.176:60232 [vpn2] Peer Connection Initiated with [AF_INET]192.168.86.176:60232
+Fri Feb 24 16:09:57 2017 vpn2/192.168.86.176:60232 OPTIONS IMPORT: reading client specific options from: clients/vpn2
+Fri Feb 24 16:09:57 2017 vpn2/192.168.86.176:60232 MULTI: Learn: 10.8.2.2 -> vpn2/192.168.86.176:60232
+Fri Feb 24 16:09:57 2017 vpn2/192.168.86.176:60232 MULTI: primary virtual IP for vpn2/192.168.86.176:60232: 10.8.2.2
+Fri Feb 24 16:09:59 2017 vpn2/192.168.86.176:60232 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:09:59 2017 vpn2/192.168.86.176:60232 send_push_reply(): safe_cap=940
+Fri Feb 24 16:09:59 2017 vpn2/192.168.86.176:60232 SENT CONTROL [vpn2]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.2.2 255.255.255.0' (status=1)
+Fri Feb 24 16:10:15 2017 TCP connection established with [AF_INET]192.168.86.178:52232
+Fri Feb 24 16:10:16 2017 192.168.86.178:52232 TLS: Initial packet from [AF_INET]192.168.86.178:52232, sid=361c5493 b6771a0f
+Fri Feb 24 16:10:16 2017 192.168.86.178:52232 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:10:16 2017 192.168.86.178:52232 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn3, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:10:16 2017 192.168.86.178:52232 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:10:16 2017 192.168.86.178:52232 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:10:16 2017 192.168.86.178:52232 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:10:16 2017 192.168.86.178:52232 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:10:16 2017 192.168.86.178:52232 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:10:16 2017 192.168.86.178:52232 [vpn3] Peer Connection Initiated with [AF_INET]192.168.86.178:52232
+Fri Feb 24 16:10:16 2017 vpn3/192.168.86.178:52232 OPTIONS IMPORT: reading client specific options from: clients/vpn3
+Fri Feb 24 16:10:16 2017 vpn3/192.168.86.178:52232 MULTI: Learn: 10.8.3.1 -> vpn3/192.168.86.178:52232
+Fri Feb 24 16:10:16 2017 vpn3/192.168.86.178:52232 MULTI: primary virtual IP for vpn3/192.168.86.178:52232: 10.8.3.1
+Fri Feb 24 16:10:19 2017 vpn3/192.168.86.178:52232 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:10:19 2017 vpn3/192.168.86.178:52232 send_push_reply(): safe_cap=940
+Fri Feb 24 16:10:19 2017 vpn3/192.168.86.178:52232 SENT CONTROL [vpn3]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.3.1 255.255.255.0' (status=1)
+Fri Feb 24 16:10:23 2017 TCP connection established with [AF_INET]192.168.86.179:36534
+Fri Feb 24 16:10:24 2017 192.168.86.179:36534 TLS: Initial packet from [AF_INET]192.168.86.179:36534, sid=b89ae0ec 04fa4c6a
+Fri Feb 24 16:10:24 2017 192.168.86.179:36534 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:10:24 2017 192.168.86.179:36534 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn4, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:10:24 2017 192.168.86.179:36534 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:10:24 2017 192.168.86.179:36534 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:10:24 2017 192.168.86.179:36534 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:10:24 2017 192.168.86.179:36534 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:10:24 2017 192.168.86.179:36534 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:10:24 2017 192.168.86.179:36534 [vpn4] Peer Connection Initiated with [AF_INET]192.168.86.179:36534
+Fri Feb 24 16:10:24 2017 vpn4/192.168.86.179:36534 OPTIONS IMPORT: reading client specific options from: clients/vpn4
+Fri Feb 24 16:10:24 2017 vpn4/192.168.86.179:36534 MULTI: Learn: 10.8.3.2 -> vpn4/192.168.86.179:36534
+Fri Feb 24 16:10:24 2017 vpn4/192.168.86.179:36534 MULTI: primary virtual IP for vpn4/192.168.86.179:36534: 10.8.3.2
+Fri Feb 24 16:10:27 2017 vpn4/192.168.86.179:36534 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:10:27 2017 vpn4/192.168.86.179:36534 send_push_reply(): safe_cap=940
+Fri Feb 24 16:10:27 2017 vpn4/192.168.86.179:36534 SENT CONTROL [vpn4]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.3.2 255.255.255.0' (status=1)
+Fri Feb 24 16:10:27 2017 TCP connection established with [AF_INET]192.168.86.180:37596
+Fri Feb 24 16:10:28 2017 192.168.86.180:37596 TLS: Initial packet from [AF_INET]192.168.86.180:37596, sid=c963cf3a 4e846df5
+Fri Feb 24 16:10:28 2017 192.168.86.180:37596 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:10:28 2017 192.168.86.180:37596 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn5, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:10:28 2017 192.168.86.180:37596 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:10:28 2017 192.168.86.180:37596 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:10:28 2017 192.168.86.180:37596 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:10:28 2017 192.168.86.180:37596 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:10:28 2017 192.168.86.180:37596 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:10:28 2017 192.168.86.180:37596 [vpn5] Peer Connection Initiated with [AF_INET]192.168.86.180:37596
+Fri Feb 24 16:10:28 2017 vpn5/192.168.86.180:37596 MULTI_sva: pool returned IPv4=10.8.254.111, IPv6=(Not enabled)
+Fri Feb 24 16:10:28 2017 vpn5/192.168.86.180:37596 MULTI: Learn: 10.8.254.111 -> vpn5/192.168.86.180:37596
+Fri Feb 24 16:10:28 2017 vpn5/192.168.86.180:37596 MULTI: primary virtual IP for vpn5/192.168.86.180:37596: 10.8.254.111
+Fri Feb 24 16:10:31 2017 vpn5/192.168.86.180:37596 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:10:31 2017 vpn5/192.168.86.180:37596 send_push_reply(): safe_cap=940
+Fri Feb 24 16:10:31 2017 vpn5/192.168.86.180:37596 SENT CONTROL [vpn5]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.254.111 255.255.255.0' (status=1)
+Fri Feb 24 16:10:31 2017 TCP connection established with [AF_INET]192.168.86.181:44370
+Fri Feb 24 16:10:32 2017 192.168.86.181:44370 TLS: Initial packet from [AF_INET]192.168.86.181:44370, sid=e09d3b93 8d4a9ce9
+Fri Feb 24 16:10:33 2017 192.168.86.181:44370 VERIFY OK: depth=1, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:10:33 2017 192.168.86.181:44370 VERIFY OK: depth=0, C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpn6, name=vpnsvr, emailAddress=zxning@gmail.com
+Fri Feb 24 16:10:33 2017 192.168.86.181:44370 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:10:33 2017 192.168.86.181:44370 Data Channel Encrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:10:33 2017 192.168.86.181:44370 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Fri Feb 24 16:10:33 2017 192.168.86.181:44370 Data Channel Decrypt: Using 256 bit message hash 'SHA256' for HMAC authentication
+Fri Feb 24 16:10:33 2017 192.168.86.181:44370 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Fri Feb 24 16:10:33 2017 192.168.86.181:44370 [vpn6] Peer Connection Initiated with [AF_INET]192.168.86.181:44370
+Fri Feb 24 16:10:33 2017 vpn6/192.168.86.181:44370 MULTI: no free --ifconfig-pool addresses are available
+Fri Feb 24 16:10:33 2017 vpn6/192.168.86.181:44370 MULTI: no dynamic or static remote --ifconfig address is available for vpn6/192.168.86.181:44370
+Fri Feb 24 16:10:35 2017 vpn6/192.168.86.181:44370 PUSH: Received control message: 'PUSH_REQUEST'
+Fri Feb 24 16:10:35 2017 vpn6/192.168.86.181:44370 send_push_reply(): safe_cap=940
+Fri Feb 24 16:10:35 2017 vpn6/192.168.86.181:44370 SENT CONTROL [vpn6]: 'PUSH_REPLY,topology subnet,ping 10,ping-restart 120' (status=1)
+Fri Feb 24 16:12:03 2017 vpn6/192.168.86.181:44370 Connection reset, restarting [0]
+Fri Feb 24 16:12:03 2017 vpn6/192.168.86.181:44370 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:12:10 2017 vpn5/192.168.86.180:37596 Connection reset, restarting [0]
+Fri Feb 24 16:12:10 2017 vpn5/192.168.86.180:37596 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:12:17 2017 vpn1/192.168.86.177:36202 Connection reset, restarting [0]
+Fri Feb 24 16:12:17 2017 vpn1/192.168.86.177:36202 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:12:24 2017 vpn2/192.168.86.176:60232 Connection reset, restarting [0]
+Fri Feb 24 16:12:24 2017 vpn2/192.168.86.176:60232 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:12:31 2017 vpn4/192.168.86.179:36534 Connection reset, restarting [0]
+Fri Feb 24 16:12:31 2017 vpn4/192.168.86.179:36534 SIGUSR1[soft,connection-reset] received, client-instance restarting
+Fri Feb 24 16:12:42 2017 Closing TUN/TAP interface
+Fri Feb 24 16:12:42 2017 /sbin/ip addr del dev tun0 10.8.0.1/16
+RTNETLINK answers: Operation not permitted
+Fri Feb 24 16:12:42 2017 Linux ip addr del failed: external program exited with error status: 2
+Fri Feb 24 16:12:42 2017 SIGTERM[hard,] received, process exiting
+Tue Feb 28 03:29:16 2017 OpenVPN 2.3.10 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Feb  2 2016
+Tue Feb 28 03:29:16 2017 library versions: OpenSSL 1.0.2g  1 Mar 2016, LZO 2.08
+Tue Feb 28 03:29:16 2017 Diffie-Hellman initialized with 2048 bit key
+Tue Feb 28 03:29:16 2017 Control Channel Authentication: using 'ta.key' as a OpenVPN static key file
+Tue Feb 28 03:29:16 2017 Outgoing Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Tue Feb 28 03:29:16 2017 Incoming Control Channel Authentication: Using 256 bit message hash 'SHA256' for HMAC authentication
+Tue Feb 28 03:29:16 2017 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Tue Feb 28 03:29:16 2017 TUN/TAP device tun0 opened
+Tue Feb 28 03:29:16 2017 TUN/TAP TX queue length set to 100
+Tue Feb 28 03:29:16 2017 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Tue Feb 28 03:29:16 2017 /sbin/ip link set dev tun0 up mtu 1500
+Tue Feb 28 03:29:16 2017 /sbin/ip addr add dev tun0 10.8.0.1/16 broadcast 10.8.255.255
+Tue Feb 28 03:29:16 2017 GID set to nogroup
+Tue Feb 28 03:29:16 2017 UID set to nobody
+Tue Feb 28 03:29:16 2017 Listening for incoming TCP connection on [undef]
+Tue Feb 28 03:29:16 2017 TCPv4_SERVER link local (bound): [undef]
+Tue Feb 28 03:29:16 2017 TCPv4_SERVER link remote: [undef]
+Tue Feb 28 03:29:16 2017 MULTI: multi_init called, r=256 v=256
+Tue Feb 28 03:29:16 2017 IFCONFIG POOL: base=10.8.254.111 size=1, ipv6=0
+Tue Feb 28 03:29:16 2017 ifconfig_pool_read(), in='vpn5,10.8.254.111', TODO: IPv6
+Tue Feb 28 03:29:16 2017 succeeded -> ifconfig_pool_set()
+Tue Feb 28 03:29:16 2017 IFCONFIG POOL LIST
+Tue Feb 28 03:29:16 2017 vpn5,10.8.254.111
+Tue Feb 28 03:29:16 2017 MULTI: TCP INIT maxclients=1024 maxevents=1028
+Tue Feb 28 03:29:16 2017 Initialization Sequence Completed

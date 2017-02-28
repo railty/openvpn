@@ -1,0 +1,99 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr CA/name=vpnsvr/emailAddress=zxning@gmail.com
+        Validity
+            Not Before: Feb 24 16:51:13 2017 GMT
+            Not After : Feb 22 16:51:13 2027 GMT
+        Subject: C=CA, ST=ON, L=Mississauga, O=vpnsvr, OU=vpnsvr, CN=vpnsvr/name=vpnsvr/emailAddress=zxning@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b7:3e:e7:ff:ea:32:47:2f:4b:a3:37:6b:89:47:
+                    8e:44:28:0e:f1:86:d8:8c:d2:7a:0d:1c:9c:b2:22:
+                    44:79:f0:4b:f9:58:50:16:95:9d:2e:99:4c:bd:59:
+                    d1:44:8b:61:3d:4b:f8:67:f2:b5:b8:d9:24:06:04:
+                    00:5c:a6:56:8c:33:da:ec:fe:42:b8:b6:aa:b5:ec:
+                    18:34:dc:9e:81:19:16:45:91:18:40:f5:7e:b2:e5:
+                    19:57:2b:68:18:6d:ed:35:51:2c:54:01:c2:0c:41:
+                    7f:66:9a:d8:8a:5f:9a:96:b6:f8:15:5f:ce:1d:58:
+                    de:bb:c1:de:e1:06:91:59:e0:7d:5c:95:e7:7e:2a:
+                    bc:c9:9b:47:ca:97:65:9f:29:24:09:08:53:00:b1:
+                    64:a4:52:1c:6c:20:bd:73:54:e9:d6:4f:0f:53:e6:
+                    30:f7:b7:3c:57:48:bf:38:3c:96:8a:61:7f:48:ff:
+                    5d:20:2d:c3:9f:54:a8:12:76:6a:ee:d4:45:2b:ca:
+                    ab:f7:22:ef:5f:f3:a3:4c:77:a5:03:6e:8f:c1:d6:
+                    2c:dd:92:ef:1f:a4:54:28:12:f4:04:08:d7:d9:9c:
+                    2d:46:74:e9:be:85:45:39:44:fd:c9:52:ed:1b:c5:
+                    02:37:8b:2d:59:1e:8b:58:8a:29:64:5e:fe:ee:26:
+                    fa:d5
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                00:3A:E1:5B:D0:41:FB:FC:33:D7:6E:9A:D7:7A:B7:B4:21:E8:8B:D3
+            X509v3 Authority Key Identifier: 
+                keyid:B1:2B:65:9B:17:E3:FB:CE:62:67:80:8E:EC:50:91:5C:9D:C4:91:4D
+                DirName:/C=CA/ST=ON/L=Mississauga/O=vpnsvr/OU=vpnsvr/CN=vpnsvr CA/name=vpnsvr/emailAddress=zxning@gmail.com
+                serial:FD:BC:9B:37:14:8C:02:DD
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:vpnsvr
+    Signature Algorithm: sha256WithRSAEncryption
+         3f:3e:b7:67:fd:45:be:14:cc:b0:93:55:f9:a4:87:1e:79:f1:
+         66:82:bf:08:39:d9:c9:57:de:15:09:32:a7:79:d6:8b:ef:35:
+         0c:99:45:01:1d:5b:de:d2:85:6b:de:7a:da:7b:c1:bb:95:47:
+         a3:19:72:8e:fd:c9:89:90:ba:ec:da:07:4f:86:1f:4b:d1:30:
+         9c:85:5c:be:54:53:24:fb:38:94:cf:13:c2:46:32:d3:a0:fc:
+         2f:b7:98:bb:1b:c9:2f:3f:38:a0:ae:38:1d:8b:31:8a:6e:03:
+         d6:bd:be:36:dd:b2:ef:71:d6:d9:94:59:57:43:48:37:57:2e:
+         66:ee:19:ea:ad:10:91:7c:28:a7:91:26:86:b0:2c:d1:f5:5a:
+         8e:36:f3:98:cd:75:01:36:30:29:e7:db:cb:33:05:5f:16:20:
+         b0:f7:b2:29:f2:25:5d:33:d0:0e:47:94:13:a5:29:95:9d:8e:
+         b8:11:1b:3d:a4:da:75:69:77:f8:45:b2:33:c9:c3:d3:4e:e4:
+         45:f1:02:7b:1a:01:ca:5f:76:34:6e:50:3f:1e:d4:7e:96:96:
+         15:8a:90:21:07:de:f8:df:a1:42:bb:83:3b:13:12:31:2e:51:
+         7f:b6:93:02:67:66:1b:64:c6:ea:ed:f3:d8:9c:52:da:d5:36:
+         b6:59:47:15
+-----BEGIN CERTIFICATE-----
+MIIFKDCCBBCgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBmDELMAkGA1UEBhMCQ0Ex
+CzAJBgNVBAgTAk9OMRQwEgYDVQQHEwtNaXNzaXNzYXVnYTEPMA0GA1UEChMGdnBu
+c3ZyMQ8wDQYDVQQLEwZ2cG5zdnIxEjAQBgNVBAMTCXZwbnN2ciBDQTEPMA0GA1UE
+KRMGdnBuc3ZyMR8wHQYJKoZIhvcNAQkBFhB6eG5pbmdAZ21haWwuY29tMB4XDTE3
+MDIyNDE2NTExM1oXDTI3MDIyMjE2NTExM1owgZUxCzAJBgNVBAYTAkNBMQswCQYD
+VQQIEwJPTjEUMBIGA1UEBxMLTWlzc2lzc2F1Z2ExDzANBgNVBAoTBnZwbnN2cjEP
+MA0GA1UECxMGdnBuc3ZyMQ8wDQYDVQQDEwZ2cG5zdnIxDzANBgNVBCkTBnZwbnN2
+cjEfMB0GCSqGSIb3DQEJARYQenhuaW5nQGdtYWlsLmNvbTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBALc+5//qMkcvS6M3a4lHjkQoDvGG2IzSeg0cnLIi
+RHnwS/lYUBaVnS6ZTL1Z0USLYT1L+GfytbjZJAYEAFymVowz2uz+Qri2qrXsGDTc
+noEZFkWRGED1frLlGVcraBht7TVRLFQBwgxBf2aa2Ipfmpa2+BVfzh1Y3rvB3uEG
+kVngfVyV534qvMmbR8qXZZ8pJAkIUwCxZKRSHGwgvXNU6dZPD1PmMPe3PFdIvzg8
+lophf0j/XSAtw59UqBJ2au7URSvKq/ci71/zo0x3pQNuj8HWLN2S7x+kVCgS9AQI
+19mcLUZ06b6FRTlE/clS7RvFAjeLLVkei1iKKWRe/u4m+tUCAwEAAaOCAXwwggF4
+MAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgZAMDQGCWCGSAGG+EIBDQQnFiVF
+YXN5LVJTQSBHZW5lcmF0ZWQgU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQA
+OuFb0EH7/DPXbprXere0IeiL0zCBzQYDVR0jBIHFMIHCgBSxK2WbF+P7zmJngI7s
+UJFcncSRTaGBnqSBmzCBmDELMAkGA1UEBhMCQ0ExCzAJBgNVBAgTAk9OMRQwEgYD
+VQQHEwtNaXNzaXNzYXVnYTEPMA0GA1UEChMGdnBuc3ZyMQ8wDQYDVQQLEwZ2cG5z
+dnIxEjAQBgNVBAMTCXZwbnN2ciBDQTEPMA0GA1UEKRMGdnBuc3ZyMR8wHQYJKoZI
+hvcNAQkBFhB6eG5pbmdAZ21haWwuY29tggkA/bybNxSMAt0wEwYDVR0lBAwwCgYI
+KwYBBQUHAwEwCwYDVR0PBAQDAgWgMBEGA1UdEQQKMAiCBnZwbnN2cjANBgkqhkiG
+9w0BAQsFAAOCAQEAPz63Z/1FvhTMsJNV+aSHHnnxZoK/CDnZyVfeFQkyp3nWi+81
+DJlFAR1b3tKFa9562nvBu5VHoxlyjv3JiZC67NoHT4YfS9EwnIVcvlRTJPs4lM8T
+wkYy06D8L7eYuxvJLz84oK44HYsxim4D1r2+Nt2y73HW2ZRZV0NIN1cuZu4Z6q0Q
+kXwop5EmhrAs0fVajjbzmM11ATYwKefbyzMFXxYgsPeyKfIlXTPQDkeUE6UplZ2O
+uBEbPaTadWl3+EWyM8nD007kRfECexoByl92NG5QPx7UfpaWFYqQIQfe+N+hQruD
+OxMSMS5Rf7aTAmdmG2TG6u3z2JxS2tU2tllHFQ==
+-----END CERTIFICATE-----
