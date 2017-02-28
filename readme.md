@@ -16,3 +16,7 @@ if the client has already existed, you will see an error because it is already
 existed in index.txt.
 #remove the line from index.txt will fix it
 
+#limitations
+1.under windows, you need run as admin to install the client, as it will need install the tap driver and create a network card
+2.cannot find updated portable executable under windows
+
